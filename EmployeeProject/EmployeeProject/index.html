@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Employee App</title>
+</head>
+<body>
+
+    <div>
+        <h2>Employees</h2>
+        <ul id="employees" />
+    </div>
+    <div>
+        <h2>Search by Employee ID</h2>
+        <input type="text" id="employeeId" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <p id="employee" />
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+        var uri = 'api/employee';
+
+        $(document).ready(function () {
+
+        });
+
+        function formatItem(item) {
+            return '<tr><td>' + item.id + '</td><td>' + item.name + '</td><td>' + item.contractTypeName + '</td><td>' + item.roleId + '</td><td>' + item.roleName + '</td><td>' + item.roleDescription + '</td><td>' + item.hourlySalary + '</td><td>' + item.monthlySalary + "</td><td>" + item.annualSalary + '</td>';
+        }
+
+        function find() {
+            $('#employees').text('');
+            $('#employees').append('<table><tr><th>Id</th><th>Name</th><th>contractTypeName</th><th>roleId</th><th>roleName</th><th>roleDescription</th><th>hourlySalary</th><th>monthlySalary</th><th>annualSalary</th></tr></table>');
+            var table = $('#employees').children();
+            var id = $('#employeeId').val();
+            if (id == '') {
+                $.getJSON(uri)
+                .done(function (data) {
+                    $.each(data, function (key, item) {
+                        table.append(formatItem(item));
+                    });
+                });
+            } else {
+                $.getJSON(uri + '/' + id)
+                    .done(function (data) {
+                        table.append(formatItem(data));
+                    })
+                    .fail(function (jqXHR, textStatus, err) {
+                        $('#employees').text('Error: ' + err);
+                    });
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\obj\Debug\EmployeeProject.Tests.csprojResolveAssemblyReference.cache
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\EmployeeProject.Tests.dll
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\EmployeeProject.Tests.pdb
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\EmployeeProject.dll
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\System.Web.Http.dll
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\EmployeeProject.pdb
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\System.Web.Http.xml
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\obj\Debug\EmployeeProject.Tests.dll
+D:\Work\VENTURES\MAS\test\EmployeeProject\EmployeesWebApi\EmployeeProject\EmployeeProject.Tests\obj\Debug\EmployeeProject.Tests.pdb
